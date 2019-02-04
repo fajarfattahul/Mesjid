@@ -12,10 +12,7 @@
                 <div class="collapse show" id="collapse_ft_1">
                     <ul class="links">
                         <li><a href="#0">About us</a></li>
-                        <li><a href="#0">Faq</a></li>
                         <li><a href="#0">Help</a></li>
-                        <li><a href="#0">My account</a></li>
-                        <li><a href="#0">Create account</a></li>
                         <li><a href="#0">Contacts</a></li>
                     </ul>
                 </div>
