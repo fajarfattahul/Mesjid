@@ -15,8 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/index', 'MesjidController@index')->name('index');
+// Route::get('/index', 'MesjidController@index')->name('index');
 
-Route::get('/admin', function () {
-    return view('admin.index');
-});
+Route::get('/admin', 'MesjidController@index')->name('mesjid');
