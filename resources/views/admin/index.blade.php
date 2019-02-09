@@ -112,7 +112,6 @@
 							<label for="latest">Latest</label>
 						</div>
 					</li>
-					<li><a class="btn_filt" data-toggle="collapse" href="#filters" aria-expanded="false" aria-controls="filters" data-text-swap="Less filters" data-text-original="More filters">More filters</a></li>
 					<li>
 						<div class="layout_view">
 							<a href="#0" class="active"><i class="icon-th"></i></a>
@@ -121,7 +120,7 @@
 						</div>
 					</li>
 					<li>
-						<a class="btn_map" data-toggle="collapse" href="#collapseMap" aria-expanded="false" aria-controls="collapseMap" data-text-swap="Hide map" data-text-original="View on map">View on map</a>
+						<a class="btn_map" data-toggle="collapse" href="#collapseMap" aria-expanded="false" aria-controls="collapseMap" data-text-swap="Hide map" data-text-original="View on map">Tambah Data</a>
 					</li>
 				</ul>
 			</div>
@@ -133,80 +132,6 @@
 			<div id="map" class="map"></div>
 		</div>
 		<!-- /Map -->
-		
-		<div class="collapse" id="filters">
-			<div class="container margin_30_5">
-				<div class="row">
-					<div class="col-md-4">
-						<h6>Rating</h6>
-						<ul>
-							<li>
-								<label class="container_check">Superb 9+ <small>25</small>
-								  <input type="checkbox">
-								  <span class="checkmark"></span>
-								</label>
-							</li>
-							<li>
-								<label class="container_check">Very Good 8+ <small>133</small>
-								  <input type="checkbox">
-								  <span class="checkmark"></span>
-								</label>
-							</li>
-							<li>
-								<label class="container_check">Good 7+ <small>32</small>
-								  <input type="checkbox">
-								  <span class="checkmark"></span>
-								</label>
-							</li>
-							<li>
-								<label class="container_check">Pleasant 6+ <small>12</small>
-								  <input type="checkbox">
-								  <span class="checkmark"></span>
-								</label>
-							</li>
-						</ul>
-					</div>
-					<div class="col-md-4">
-						<h6>Tags</h6>
-						<ul>
-							<li>
-								<label class="container_check">Wireless Internet <small>12</small>
-								  <input type="checkbox">
-								  <span class="checkmark"></span>
-								</label>
-							</li>
-							<li>
-								<label class="container_check">Smoking Allowed <small>11</small>
-								  <input type="checkbox">
-								  <span class="checkmark"></span>
-								</label>
-							</li>
-							<li>
-								<label class="container_check">Wheelchair Accesible <small>23</small>
-								  <input type="checkbox">
-								  <span class="checkmark"></span>
-								</label>
-							</li>
-							<li>
-								<label class="container_check">Parking <small>56</small>
-								  <input type="checkbox">
-								  <span class="checkmark"></span>
-								</label>
-							</li>
-						</ul>
-					</div>
-					<div class="col-md-4">
-						<div class="add_bottom_30">
-						<h6>Distance</h6>
-							<div class="distance"> Radius around selected destination <span></span> km</div>
-							<input type="range" min="10" max="100" step="10" value="30" data-orientation="horizontal">
-						</div>
-					</div>
-				</div>
-				<!-- /row -->
-			</div>
-		</div>
-		<!-- /Filters -->
 
 		<div class="container margin_60_35">
 			
