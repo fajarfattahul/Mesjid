@@ -66,39 +66,42 @@
 	<!-- /header -->
 	
 	<main>
-		<div id="results">
-		   <div class="container">
-			   <div class="row">
-				   <div class="col-lg-3 col-md-4 col-10">
-					   <h4><strong>Temukan!</strong> Mesjid anda..</h4>
-				   </div>
-				   <div class="col-lg-9 col-md-8 col-2">
-					   <a href="#0" class="side_panel btn_search_mobile"></a> <!-- /open search panel -->
-						<div class="row no-gutters custom-search-input-2 inner">
-							<div class="col-lg-5">
-								<div class="form-group">
-									<input class="form-control" type="text" placeholder="Nama Mesjid....">
-									<i class="icon_search"></i>
+		<form action="{{ route('pencarian') }}" method="get">
+			{{ csrf_field() }}
+			<div id="results">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-4 col-10">
+						<h4><strong>Temukan!</strong> Mesjid anda..</h4>
+					</div>
+					<div class="col-lg-9 col-md-8 col-2">
+						<a href="#0" class="side_panel btn_search_mobile"></a> <!-- /open search panel -->
+							<div class="row no-gutters custom-search-input-2 inner">
+								<div class="col-lg-5">
+									<div class="form-group">
+										<input class="form-control" type="text" name="mesjid" placeholder="Nama Mesjid....">
+										<i class="icon_search"></i>
+									</div>
+								</div>
+								<div class="col-lg-5">
+									<div class="form-group">
+										<input class="form-control" type="text" name="lokasi" placeholder="Lokasi">
+										<i class="icon_pin_alt"></i>
+									</div>
+								</div>
+								<div class="col-lg-2">
+									<input type="submit" value="cari">
 								</div>
 							</div>
-							<div class="col-lg-5">
-								<div class="form-group">
-									<input class="form-control" type="text" placeholder="Lokasi">
-									<i class="icon_pin_alt"></i>
-								</div>
-							</div>
-							<div class="col-lg-2">
-								<input type="submit" value="Search">
-							</div>
-						</div>
-				   </div>
-			   </div>
-			   <!-- /row -->
-		   </div>
-		   <!-- /container -->
-	   </div>
-		
-	   	<!-- /results -->		
+					</div>
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /results -->	
+		</form>
+
 		<div class="filters_listing sticky_horizontal">
 			<div class="container">
 				<ul class="clearfix">

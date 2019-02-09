@@ -11,4 +11,10 @@ class MesjidController extends Controller
 
         return view('admin.index', $data);
     }
+
+    public function pecarian(Request $mes) {
+        $data['mesjid'] = Mesjid::where('nama', 'LIKE', '%'.$mes->mesjid.'%')->where('Kabupaten', 'LIKE', '%'.$mes->lokasi.'%')->paginate(12);
+
+        return view('admin.index', $data);
+    }
 }

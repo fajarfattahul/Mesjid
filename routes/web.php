@@ -18,3 +18,4 @@ Route::get('/', function () {
 // Route::get('/index', 'MesjidController@index')->name('index');
 
 Route::get('/admin', 'MesjidController@index')->name('mesjid');
+Route::get('/admin/pencarian', 'MesjidController@pecarian')->name('pencarian');
